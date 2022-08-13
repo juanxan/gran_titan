@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <section class="row" >
+        <div class="m-auto col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 " >
+            <div class="card card-shadow p-3 hover-zoom border_red" >
+                <h1>{{cats.name}}</h1>
+                 <p>{{cats.description}}</p>
+            </div>
+        </div>
+        <div class="mb-4  col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 " >
+            <div class="p-3 hover-zoom " >
+                <div class="div_img text-center">
+                    <img class=" img_hover" src="{{cats_img.url}}" alt="" width="" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="">
+        <div class="card m-auto temperaments">
+            <div class="icon_cat">
+                <div class="m-auto text-center mt-3"><i class="fas fa-cat fa-2xl" ></i></div>
+                
+            </div>
+            <div class="temperaments-container" >
+                <div class="row temperaments-row">
+                    <div class="col-xs-6 col-sm-4 col-md-6 col-lg-4 col-xl-4" *ngFor="let item of temperaments">
+                        <div class="temperaments-item">
+                            <i class="fas fa-check-circle"></i><p>{{item}}</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</div>

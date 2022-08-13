@@ -1,0 +1,26 @@
+.card{
+    cursor: pointer;
+}
+.div_img{
+    overflow: hidden;
+}
+.div_img .img_hover{
+    transition: 0.5s all ease-in-out;
+}
+.img_hover:hover {
+    transform: scale(1.2); 
+  }
+  .my-pagination ::ng-deep .ngx-pagination .current {
+    background: red;
+  }
+  .item_icon{
+    display: flex;
+  }
+  .item_icon p{
+        width: 100%;
+        margin: auto;
+  }
+  .item_icon i{
+    width: 50%;
+    margin: auto;
+}

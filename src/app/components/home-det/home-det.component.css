@@ -1,0 +1,48 @@
+.border_red{
+    border-top: 5px solid red;
+}
+.div_img img{
+    border-radius: 0.5rem;
+}
+.div_img{
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.div_img .img_hover{
+    transition: 0.5s all ease-in-out;
+}
+.img_hover:hover {
+    transform: scale(1.2); 
+  }
+.card-shadow{
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 30%);
+}
+.temperaments{
+    width: 70%;
+}
+.temperaments-row{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.temperaments-item{
+    display: flex;
+}
+.temperaments-item p{
+    margin-left: 10px;
+    width: 100%;
+}
+.icon_cat{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 3rem;
+    display: block;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    background-color: white;
+}
+.icon_cat .svg-inline--fa{ 
+    font-size: 40px !important;
+}
